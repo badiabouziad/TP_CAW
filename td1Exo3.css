@@ -1,0 +1,17 @@
+body {
+  font-family: "poppins";
+}
+div {
+  background-color: purple;
+}
+/* 1 cette règle sera appliquer */
+
+.highlight {
+  font-size: 200px;
+}
+/* 10 */
+
+#third {
+  border: 1px solid orange;
+}
+/* 100 */

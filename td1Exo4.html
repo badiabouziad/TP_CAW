@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div.container {
+        background: green;
+      }
+      /* 11 */
+      body div {
+        background: red;
+      }
+      /* 2 */
+      div.container#main {
+        background: purple;
+      }
+      /* 111 */
+      body #main {
+        background: magenta;
+      }
+      /* 101 */
+      .container {
+        background: blue;
+      }
+      /* 10 */
+      div {
+        background: yellow;
+        height: 200px;
+        width: 200px;
+      }
+      /* 1 */
+      body div.container#main {
+        background: brown;
+      }
+      /* 112  cettte règle sera appliquer */
+    </style>
+  </head>
+  <body>
+    <div class="container" id="main">THIS IS A DIV!</div>
+  </body>
+</html>
