@@ -36,7 +36,7 @@ document.getElementById("start").addEventListener("click", function () {
     if (x < 0) {
       boundaries.forEach((box) => {
         box.classList.add("youlose");
-        document.getElementById("status").innerHTML = "stay on path";
+        document.getElementById("status").innerHTML = "Don't cheat";
         document.getElementById("status").style.color = "red";
       });
     }
