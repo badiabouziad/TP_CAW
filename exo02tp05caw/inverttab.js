@@ -6,9 +6,8 @@
   return newArray;
 }
 
-var a = [1, 2, 3, 5, 7, 8, 9, 10];
-var b = reverseArr(a);
-
+let a = [1, 2, 3, 5, 7, 8, 9, 10];
+let b = reverseArr(a);
 console.log(b);*/
 
 function reverseArr(originalArray) {
