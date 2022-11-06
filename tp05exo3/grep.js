@@ -13,8 +13,8 @@ for (let i = 1; i < arg.length; i++) {
   }
 }
 if (fichiers.length == 0) {
-  console.log("no file contains such expression");
+  console.log("NONE");
 } else {
-  console.log("the expression is found in the following files");
+  console.log("les Fichiers : ");
   console.log(fichiers);
 }
