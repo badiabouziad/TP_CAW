@@ -14,12 +14,6 @@ export default function Contacts() {
     setContacts([...contacts, contact]);
   };
   return (
-    /*
-    <div className="App">
-      <Create ajoutcontact={ajoutcontact} />
-      <Mycontacts contacts={contacts} />
-    </div>*/
-    
     <div className="contacts">
       <BrowserRouter>
         <nav className="navbar">

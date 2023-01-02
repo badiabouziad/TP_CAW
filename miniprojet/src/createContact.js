@@ -2,9 +2,8 @@ import React from "react";
 import { useState } from "react";
 import Mycontacts from "./mycontacts";
 
-export default function Create({ ajoutcontact }) {
-  /* const [nom, setnom] = useState("");
-  const [numero, setnumero] = useState("");
+/* const [nom, setnom] = useState("");
+const [numero, setnumero] = useState("");
   const [email, setemail] = useState("");*/
   /*function handlenom(e) {
     setcontact({
@@ -26,6 +25,7 @@ export default function Create({ ajoutcontact }) {
       email: e.target.value,
     });
   }*/
+export default function Create({ ajoutcontact }) {
   const [contact, setcontact] = useState([
     {
       nom: "",

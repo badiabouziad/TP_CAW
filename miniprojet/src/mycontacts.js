@@ -9,7 +9,7 @@ export default function Mycontacts({ contacts }) {
           <h3>Numéro : {contact.numero}</h3>
           <br></br>
           <br></br>
-          <h3>Email : {contact.email}</h3>
+          <h3>Adress email : {contact.email}</h3>
         </div>
       ))}
     </div>
