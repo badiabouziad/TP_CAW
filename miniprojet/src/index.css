@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* base styles */
+* {
+  margin: 0;
+  font-family: "poppins";
+  color: #333;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  max-width: 1200px;
+  justify-content: space-between;
+}
+.navbar h1 {
+  color: blue;
+  font-size: 35px;
+  text-decoration: none;
+}
+.navbar h1 span{
+  color: #fb8500;
+ 
+}
+.navbar div {
+  padding: 25px;
+}
+
+.home {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+.home h1 {
+  font-size: 60px;
+  margin-top: 200px;
+}
+.link:hover {
+  color: blue;
+}
+.link2:hover {
+  color:  #fb8500;
+}
+.btn-contact {
+  background-color: blue;
+  border: none;
+  width: 250px;
+  height: 60px;
+  border-radius: 30px;
+  color: white;
+  text-decoration: none;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.btn-contact:hover {
+  background-color: rgb(0, 0, 122);
+}
+.btns {
+  margin: auto;
+  margin-top: 50px;
+}
+.contact {
+  padding: 30px;
+  border-radius: 30px;
+  background-color: rgba(0, 0, 255, 0.233);
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.contact h2 {
+  color: blue;
+}
+.contact-form {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.contact-form button {
+  margin-top: 50px;
+}
+.contact-form label {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 0;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.contact-form input {
+  color: white;
+  background-color: blue;
+  border: none;
+  height: 60px;
+  width: 450px;
+  border-radius: 50px;
+  font-size: 25px;
+  transition: 0.3s;
+  padding-left: 30px;
+}
+.contact-form input:focus {
+  background-color: rgb(0, 0, 122);
+  outline: none;
+  padding: 15px;
+  padding-left: 30px;
+}
+.contact-form h2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn-blog {
+  background-color: #fb8500;
+  border: none;
+  width: 250px;
+  height: 60px;
+  border-radius: 30px;
+  color: white;
+  text-decoration: none;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.btn-blog:hover {
+  background-color:  #b46000;
+}
+.btns {
+  margin: auto;
+  margin-top: 50px;
+}
+.blog {
+  padding: 30px;
+  border-radius: 30px;
+  background-color: #fb860046;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.blog h2 {
+  color: #fb8500;
+}
+.blog-form {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.blog-form .desc{
+  height: 120px;
+}
+.blog-form button {
+  margin-top: 50px;
+}
+.blog-form label {
+  margin-top: 30px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 0;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+.blog-form input {
+  color: white;
+  background-color: #fb8500;
+  border: none;
+  height: 60px;
+  width: 450px;
+  border-radius: 50px;
+  font-size: 25px;
+  transition: 0.3s;
+  padding-left: 30px;
+}
+.blog-form input:focus {
+  background-color: #b86200;
+  outline: none;
+  padding: 15px;
+  padding-left: 30px;
+}
+.blog-form h2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.blog-likes{
+  display: flex;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 60px;
+  border-radius: 20px;
+  background-color: blue;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+}
+.blog-likes:focus{
+  background-color: rgb(0, 7, 110);
+}
+.blog-likes span{
+  color: white;
+}
