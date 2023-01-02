@@ -184,6 +184,7 @@
   font-size: 25px;
   transition: 0.3s;
   padding-left: 30px;
+  padding-right: 20px;
 }
 .blog-form input:focus {
   background-color: #b86200;
